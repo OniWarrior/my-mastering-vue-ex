@@ -1,7 +1,12 @@
 <template>
-  <h1>Create</h1>
+  <div>
+    <h1>Create</h1>
 
-  <form>
-    
-  </form>
+    <form>
+       <label>Select a Category</label>
+
+    </form>
+
+  </div>
+ 
 </template>
