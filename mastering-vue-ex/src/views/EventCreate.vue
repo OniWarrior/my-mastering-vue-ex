@@ -11,7 +11,9 @@
        <div class="field">
           <label>Title</label>
           <input v-model="event.title" type="text" placeholder="Add an event title"/> 
-
+       </div>
+       <div class="field">
+        
        </div>
 
     </form>
