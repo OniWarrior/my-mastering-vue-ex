@@ -19,6 +19,7 @@
        <h3>Where is your Event?</h3>
        <div class="field">
           <label>Location</label>
+          <input v-model="event.location" type="text" placeholder="Add a location"/>
 
        </div>
          
