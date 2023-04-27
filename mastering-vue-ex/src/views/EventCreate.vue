@@ -29,6 +29,7 @@
        <div class="field">
           <label>Select a time</label>
           <select v-model = "event.time">
+            <option v-for="time in times" :key = "time">{{ time }}</option>
           </select>
 
        </div>
