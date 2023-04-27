@@ -23,7 +23,8 @@
        </div>
        <h3>When is your event?</h3>
        <div class="field">
-        
+          <label>Date</label>
+
        </div>
 
          
