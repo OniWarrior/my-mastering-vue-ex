@@ -2,7 +2,7 @@
   <div>
     <h1>Create</h1>
 
-    <form>
+    <form @submit.prevent="createEvent">
        <label>Select a Category</label>
        <select v-model="event.category">
           <option v-for="cat in categories" :key="cat">{{ cat }}</option> 
