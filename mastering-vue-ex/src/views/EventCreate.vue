@@ -24,7 +24,7 @@
        <h3>When is your event?</h3>
        <div class="field">
           <label>Date</label>
-          <datepicker v-model="event.date" placeholder="Select a date"/>
+          <Datepicker v-model="event.date" placeholder="Select a date"/>
        </div>
        <div class="field">
           <label>Select a time</label>
@@ -80,4 +80,10 @@ export default {
 }
 
 </script>
+
+<style scoped>
+.field {
+      margin-bottom: 24px;
+    }
+</style>
 
