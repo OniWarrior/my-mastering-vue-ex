@@ -15,9 +15,12 @@
        <div class="field">
           <label>Description</label>
           <input v-model="event.description" type="text" placeholder="Add a description"/>
-          <h3>Where is your Event?</h3>
-
        </div>
+       <h3>Where is your Event?</h3>
+       <div class="field">
+        
+       </div>
+         
 
     </form>
 
