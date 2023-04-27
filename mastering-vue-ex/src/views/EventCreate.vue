@@ -61,8 +61,10 @@ export default {
   },
   methods:{
     createEvent(){
-      this.$store.dispatch("createEvent",this.event);
-      this.event = this.createFreshEventObject();
+      this.$store.dispatch("createEvent",this.event).then(()=>{
+        this.event = this.createFreshEventObject();
+      })
+     
     }
     ,
     createFreshEvent(){
