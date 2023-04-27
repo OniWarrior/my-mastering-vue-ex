@@ -27,7 +27,8 @@
           <datepicker v-model="event.date" placeholder="Select a date"/>
        </div>
        <div class="field">
-        
+          <label>Select a time</label>
+
        </div>
 
          
