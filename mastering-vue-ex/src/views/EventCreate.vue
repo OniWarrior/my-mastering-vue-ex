@@ -40,7 +40,27 @@
 </template>
 
 <script>
-import DatePicker from 'vuejs-datepicker';
+import Datepicker from 'vuejs-datepicker';
+export default {
+  components: {
+    Datepicker
+  },
+  data(){
+    const times = [];
+    for(let i = 1; i <=24;i++){
+      times.push(i + ".00");
+    }
+
+    return{
+    event: this.createFreshEvent(),
+    times,
+    categories:this.$store.state.categories
+
+    
+    }
+  },
+ 
+}
 
 </script>
 
