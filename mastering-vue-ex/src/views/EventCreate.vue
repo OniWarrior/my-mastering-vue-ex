@@ -52,7 +52,7 @@ export default {
     }
 
     return{
-    event: this.createFreshEvent(),
+    event: this.createFreshEventObject(),
     times,
     categories:this.$store.state.categories
 
@@ -62,6 +62,7 @@ export default {
   methods:{
     createEvent(){
       this.$store.dispatch("createEvent",this.event);
+      this.event = this.createFreshEventObject();
     }
     ,
     createFreshEvent(){
