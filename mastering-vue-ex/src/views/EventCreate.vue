@@ -28,6 +28,8 @@
        </div>
        <div class="field">
           <label>Select a time</label>
+          <select v-model = "event.time">
+          </select>
 
        </div>
 
