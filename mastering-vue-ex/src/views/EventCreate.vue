@@ -34,11 +34,13 @@
        </div>
 
        <input type="submit" class="button -fill-gradient" value="Submit"/>
-
-         
-
     </form>
-
   </div>
  
 </template>
+
+<script>
+import DatePicker from 'vuejs-datepicker';
+
+</script>
+
