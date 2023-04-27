@@ -18,7 +18,8 @@
        </div>
        <h3>Where is your Event?</h3>
        <div class="field">
-        
+          <label>Location</label>
+
        </div>
          
 
