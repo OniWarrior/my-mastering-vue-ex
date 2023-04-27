@@ -24,7 +24,7 @@
        <h3>When is your event?</h3>
        <div class="field">
           <label>Date</label>
-
+          <datepicker v-model="event.date" placeholder="Select a date"/>
        </div>
 
          
